@@ -1,0 +1,235 @@
+/* 全局*/
+#app {
+  font-size: 13px;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  color: #657180;
+  min-height: 100vh;
+  overflow-x: scroll;
+}
+.page-mid-form-frame {
+  width: 520px;
+  padding: 20px 0 0 20px;
+}
+.page-mid-markdown-frame {
+  padding-top: 20px;
+  width: 53vw;
+}
+.page-bottom {
+  height: 150px;
+  width: 1250px;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.fearlessImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+/* 全局css */
+.form-title {
+  width: 90px;
+}
+.form-frame {
+  width: 520px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.application-title {
+  margin: 20px 0 0 30px;
+  font-size: 35px;
+  color: #464c5b;
+}
+.application-table-frame {
+  margin: 20px 30px 0 30px;
+  border-bottom: 1px #DFDFDF solid;
+  padding-bottom: 20px;
+}
+.application-paging {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.application-search {
+  margin: 10px 0 0 30px;
+}
+/* 忘记密码 css */
+.forget-page-form-frame {
+  box-shadow: 1px 1px 10px #787878;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  width: 500px;
+  height: 265px;
+  margin: auto;
+  margin-top: 250px;
+  padding: 20px;
+}
+.forget-page-font-top {
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px #ABABAB;
+  text-align: center;
+  color: #464c5b;
+}
+.forget-page-input {
+  box-shadow: inset 0 0 5px #EFEFEF;
+  padding-left: 8px;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  border: 1px #DFDFDF solid;
+}
+.forget-page-button {
+  width: 47.8%;
+  height: 50px;
+  border: 1px yellowgreen solid;
+  font-size: 17px;
+  margin-right: 15px;
+}
+.forget-page-button2 {
+  height: 50px;
+  width: 47.8%;
+  color: white;
+  font-size: 17px;
+  background: #ffb561;
+  border: 1px #f7caa0 solid;
+}
+.forget-page-button2:hover {
+  background: #ffc480;
+}
+.forget-page-input:active {
+  box-shadow: inset 0 0 5px #a0a0a0;
+}
+/* 忘记密码 css */
+/* 作品列表css */
+.page-mid-left {
+  width: 100%;
+  float: left;
+  padding: 20px 20px 0 25px;
+  box-sizing: border-box;
+  border-bottom: 1px #DFDFDF solid;
+}
+.page-mid-right {
+  box-shadow: 0 4px 5px #DFDFDF;
+  width: 100%;
+  float: left;
+  height: 500px;
+  overflow-y: auto;
+  padding: 20px 20px 0 25px;
+  box-sizing: border-box;
+}
+.work-list-right-title {
+  height: fit-content;
+  width: 100%;
+  float: left;
+}
+.work-list-right-title-name {
+  color: #464c5b;
+  font-size: 20px;
+  font-weight: bold;
+}
+.work-list-right-content-info {
+  float: left;
+  margin-top: 20px;
+  width: 100%;
+  height: fit-content;
+}
+.work-list-content-image {
+  float: left;
+  width: 250px;
+  height: 150px;
+}
+.work-list-content-name {
+  margin: 0px 0 7px 10px;
+  float: left;
+  width: 65%;
+  height: 25px;
+  color: #464c5b;
+  font-weight: bold;
+  font-size: 20px;
+}
+.work-list-content-introduce {
+  margin-left: 10px;
+  float: left;
+  width: 65%;
+  height: fit-content;
+  font-size: 14px;
+  color: #898998;
+}
+.work-list-underline {
+  border-bottom: 1px #DFDFDF solid;
+  width: 100%;
+  height: 1px;
+  float: left;
+  margin-bottom: 20px;
+}
+/* 作品列表css */
+.login-right {
+  width: 22%;
+  height: 85%;
+  margin-left: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login-form-frame {
+  box-shadow: 1px 1px 10px #787878;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  width: 400px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+.login-font-top {
+  width: 400px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px #ABABAB;
+  text-align: center;
+  color: #363838;
+}
+.login-font {
+  margin-bottom: 7px;
+  text-align: left;
+  font-size: 16px;
+}
+.login-button {
+  width: 47.8%;
+  height: 50px;
+  border: 1px yellowgreen solid;
+  font-size: 17px;
+  margin-right: 15px;
+}
+.login-button2 {
+  height: 50px;
+  width: 47.8%;
+  color: white;
+  font-size: 17px;
+  background: #ffb561;
+  border: 1px #f7caa0 solid;
+}
+.login-button2:hover {
+  background: #ffc480;
+}
+.login-input {
+  box-shadow: inset 0 0 5px #EFEFEF;
+  padding-left: 8px;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px #DFDFDF solid;
+}
+.login-input:active {
+  box-shadow: inset 0 0 5px #a0a0a0;
+}
+/* Login css */
